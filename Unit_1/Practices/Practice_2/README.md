@@ -1,5 +1,5 @@
 # Practice 2
-##Find 20 R functions aside from the ones viewed in class
+## Find 20 R functions aside from the ones viewed in class
 
 This are the following functions encountered
 
