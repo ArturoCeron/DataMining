@@ -63,5 +63,5 @@ qplot(data = anios13, x = Fertility.Rate, y = LExpectancy2013,
 ```
 # Results
 
-![Alt text](Image/Plot1.jpg?raw=true)
-![Alt text](Image/Plot2.jpg?raw=true)
+![Alt text](Images/Plot1.jpg?raw=true)
+![Alt text](Images/Plot2.jpg?raw=true)
