@@ -61,3 +61,7 @@ qplot(data = anios13, x = Fertility.Rate, y = LExpectancy2013,
       color = Region, size=I(3), shape=I(19), alpha =I(.4), 
       main = "Life Expectancy and Fertility Rate by Country 2013")
 ```
+# Results
+
+![Alt text](relative/Image/Plot1.jpg?raw=true)
+![Alt text](relative/Image/Plot2.jpg?raw=true)
