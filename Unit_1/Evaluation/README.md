@@ -64,5 +64,7 @@ qplot(data = anios13, x = Fertility.Rate, y = LExpectancy2013,
 # Results
 
 ![Alt text](Images/Plot1.bmp?raw=true "Esperanza de vida 1960")
-<hr>
+
+<hr></hr>
+
 ![Alt text](Images/Plot2.bmp?raw=true "Esperanza de vida 2013")
