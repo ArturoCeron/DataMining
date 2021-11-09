@@ -13,7 +13,9 @@ Data1<-Data[which(Data$Genre=="action"|Data$Genre=="adventure"|
 Data1<-Data1[which(Data1$Studio=="Buena Vista Studios"|Data1$Studio=="Fox"|
                      Data1$Studio=="Paramount Pictures"|Data1$Studio=="Sony"|
                      Data1$Studio=="Universal"|Data1$Studio=="WB"),]
-
-j <- ggplot(Data1, aes(x=Genre, y=Gross...US, size=Budget...mill.,color=Studio))+geom_jitter()
-b <- ggplot(Data1, aes(x=Genre, y=Gross...US, size=Budget...mill.))+geom_boxplot()                  
+#Graficar utilizando 2 facetas, jitter con los parametros de budget y color
+#y boxplot haciendolo transparente y sin valores fuera de la caja
+p <- ggplot(Data1, aes(x=Genre, y=Gross...US))+
+  geom_jitter(aes(size=Budget...mill.,color=Studio))+
+  geom_boxplot(size=0.5, alpha=0.5, outlier.shape = NA)                  
 
