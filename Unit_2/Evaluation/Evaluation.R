@@ -20,5 +20,6 @@ Data1<-Data1[which(Data1$Studio=="Buena Vista Studios"|Data1$Studio=="Fox"|
                      Data1$Studio=="Paramount Pictures"|Data1$Studio=="Sony"|
                      Data1$Studio=="Universal"|Data1$Studio=="WB"),]
 
-ggplot(Data1, aes(x=Genre, y=Gross...US, size=Budget...mill.,color=Studio)) + 
-    geom_jitter()
+j <- ggplot(Data1, aes(x=Genre, y=Gross...US, size=Budget...mill.,color=Studio))+geom_jitter()
+b <- ggplot(Data1, aes(x=Genre, y=Gross...US, size=Budget...mill.))+geom_boxplot()                  
+
