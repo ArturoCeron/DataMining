@@ -3,13 +3,7 @@ Data <- read.csv("Project-Data.csv")
 
 #Libreria, importar si no se tiene
 library(ggplot2)
-library(dplyr)
-head(Data)
-colnames(Data) 
-head(Data)
-tail(Data)
-str(Data)
-summary(Data)
+
 
 #Limitar por genero
 Data1<-Data[which(Data$Genre=="action"|Data$Genre=="adventure"|
