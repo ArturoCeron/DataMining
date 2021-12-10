@@ -88,7 +88,7 @@ points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
 
-![Alt text](Image1.PNG?raw=true)
+![Alt text](https://raw.githubusercontent.com/ArturoCeron/DataMining/Unit_3/Unit_3/Evaluation/Image1.bmp)
 
 
 ``` R
@@ -108,4 +108,4 @@ points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
 
-![Alt text](Image2.PNG?raw=true)
+![Alt text](https://raw.githubusercontent.com/ArturoCeron/DataMining/Unit_3/Unit_3/Evaluation/Image2.bmp)
