@@ -74,5 +74,5 @@ ggtitle('Salary vs Experience (Test Set)') +
 xlab('Years of experience')
 ```
 
-![Alt text](Image1.PNG?raw=true)
-![Alt text](Image2.PNG?raw=true)
+![Alt text](https://raw.githubusercontent.com/ArturoCeron/DataMining/Unit_3/Unit_3/Practice/Practice_1/image1.bmp)
+![Alt text](https://raw.githubusercontent.com/ArturoCeron/DataMining/Unit_3/Unit_3/Practice/Practice_1/Image2.bmp)
