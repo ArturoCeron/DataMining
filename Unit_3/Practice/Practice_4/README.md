@@ -1,5 +1,5 @@
 # Unit 3
-#Practice 4
+# Practice 4
 
 The first thing to do is set the working directory for the project in R. Using "setwd" the modification is made.
 ``` R
