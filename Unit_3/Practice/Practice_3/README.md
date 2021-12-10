@@ -151,6 +151,6 @@ lo comparamos a el modelo con los datos de train_set
 El Resultado es la siguiente grafica, que contiene los puntos de los datos de prueba
 y la linea generada por el modelo entrenado.
 
-![Alt text](Image1.PNG?raw=true)
+![Alt text](https://raw.githubusercontent.com/ArturoCeron/DataMining/Unit_3/Unit_3/Practice/Practice_3/Image1.bmp)
 
-![Alt text](Image2.PNG?raw=true)
+![Alt text](https://raw.githubusercontent.com/ArturoCeron/DataMining/Unit_3/Unit_3/Practice/Practice_3/Image2.bmp)
