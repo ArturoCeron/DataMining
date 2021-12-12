@@ -1,4 +1,4 @@
-setwd("C:/Users/cheke/Desktop/Ariel/Mineria/DataMining/Unit_2/Evaluation")
+setwd("C:/Users/CORSAIR/DataMining/Unit_2/Evaluation")
 Data <- read.csv("Project-Data.csv")
 
 #Libreria, instalar si no se tiene
