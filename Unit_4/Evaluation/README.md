@@ -35,6 +35,8 @@ plot(1:10,
      ylab = 'WCSS')
 ```
 
+![Alt text](https://github.com/ArturoCeron/DataMining/blob/Unit_4/Unit_4/Evaluation/Images/ElbowMethod.png)
+
 Getting the clusters in the petal data
 
 ``` R
@@ -60,6 +62,7 @@ clusplot(petal_dataset,
          ylab = 'Petal witdth')
 ```
 
+![Alt text](https://github.com/ArturoCeron/DataMining/blob/Unit_4/Unit_4/Evaluation/Images/PetalIris.png)
 
 Getting the clusters in the sepal data
 
@@ -86,6 +89,7 @@ clusplot(sepal_dataset,
          xlab = 'Sepal length',
          ylab = 'Sepal witdth')
 ```
+![Alt text](https://github.com/ArturoCeron/DataMining/blob/Unit_4/Unit_4/Evaluation/Images/SepalIris.png)
 
 Getting the clusters in all the data
 
@@ -112,3 +116,5 @@ clusplot(dataset,
          xlab = 'x label',
          ylab = 'y label')
 ```
+
+![Alt text](https://github.com/ArturoCeron/DataMining/blob/Unit_4/Unit_4/Evaluation/Images/AllClusters.png)
